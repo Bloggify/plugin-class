@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/bloggify-plugin-class/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-plugin-class#readme"
+  "homepage": "https://github.com/IonicaBizau/bloggify-plugin-class#readme",
+  "dependencies": {
+    "package-json-path": "^1.0.0",
+    "r-json": "^1.2.1",
+    "same-time": "^2.3.1",
+    "ul": "^5.2.1"
+  }
 }
