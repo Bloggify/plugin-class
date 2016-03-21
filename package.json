@@ -30,6 +30,7 @@
     "package-json-path": "^1.0.0",
     "r-json": "^1.2.1",
     "same-time": "^2.3.1",
+    "spawn-npm": "^1.0.0",
     "ul": "^5.2.1"
   }
 }
