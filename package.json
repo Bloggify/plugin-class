@@ -12,25 +12,40 @@
     "objects"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/bloggify-plugin-class.git"
+    "url": "git+ssh://git@github.com/Bloggify/plugin-class.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/bloggify-plugin-class/issues"
+    "url": "https://github.com/Bloggify/plugin-class/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-plugin-class#readme",
+  "homepage": "https://github.com/Bloggify/plugin-class#readme",
   "dependencies": {
     "package-json-path": "^1.0.0",
     "r-json": "^1.2.1",
     "same-time": "^2.3.1",
     "spawn-npm": "^1.0.0",
     "ul": "^5.2.1"
-  }
+  },
+  "blah": {
+    "description": "This module is used internally in plugin loaders."
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
