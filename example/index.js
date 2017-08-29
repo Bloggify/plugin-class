@@ -1,14 +1,11 @@
 "use strict";
 
-const BloggifyPluginClass = require("../lib")
-    , Bloggify = require("bloggify")
-    ;
+const BloggifyPluginClass = require("../lib");
 
 // Create a new plugin
-let myPlugin = return new BloggifyPlugin(
+let myPlugin = new BloggifyPlugin(
     "foo"
   , "path/to/foo"
-  , Bloggify
 );
 
 // And initialize it

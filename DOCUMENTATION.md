@@ -2,8 +2,7 @@
 
 You can see below the API reference of this module.
 
-### BloggifyPlugin
-
+### `BloggifyPlugin(name, pluginPath, bloggifyInstance)`
 Creates a new Bloggify plugin instance.
 
 #### Params
@@ -19,7 +18,7 @@ Creates a new Bloggify plugin instance.
  - `bloggify` (Bloggify): The `Bloggify` instance.
  - `config` (Object): The plugin's configuration.
 
-### `getFilePath(fileName)`
+getFilePath
 Returns the path of the searched file.
 
 #### Params
@@ -28,19 +27,19 @@ Returns the path of the searched file.
 #### Return
 - **String** The file's path.
 
-### `init(cb)`
+init
 Initializes the plugin.
 
 #### Params
 - **Function** `cb`: The callback function.
 
-### `getConfig()`
+getConfig
 Returns plugin's configuration.
 
 #### Return
 - **Object** The configuration content.
 
-### `getPackage(cb)`
+getPackage
 Returns the plugin's package file.
 
 #### Params

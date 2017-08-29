@@ -19,15 +19,12 @@ $ npm i --save bloggify-plugin-class
 
 
 ```js
-const BloggifyPluginClass = require("bloggify-plugin-class")
-    , Bloggify = require("bloggify")
-    ;
+const BloggifyPluginClass = require("bloggify-plugin-class");
 
 // Create a new plugin
-let myPlugin = return new BloggifyPlugin(
+let myPlugin = new BloggifyPlugin(
     "foo"
   , "path/to/foo"
-  , Bloggify
 );
 
 // And initialize it
@@ -49,8 +46,7 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
-### BloggifyPlugin
-
+### `BloggifyPlugin(name, pluginPath, bloggifyInstance)`
 Creates a new Bloggify plugin instance.
 
 #### Params
@@ -66,7 +62,7 @@ Creates a new Bloggify plugin instance.
  - `bloggify` (Bloggify): The `Bloggify` instance.
  - `config` (Object): The plugin's configuration.
 
-### `getFilePath(fileName)`
+getFilePath
 Returns the path of the searched file.
 
 #### Params
@@ -75,19 +71,19 @@ Returns the path of the searched file.
 #### Return
 - **String** The file's path.
 
-### `init(cb)`
+init
 Initializes the plugin.
 
 #### Params
 - **Function** `cb`: The callback function.
 
-### `getConfig()`
+getConfig
 Returns plugin's configuration.
 
 #### Return
 - **Object** The configuration content.
 
-### `getPackage(cb)`
+getPackage
 Returns the plugin's package file.
 
 #### Params
