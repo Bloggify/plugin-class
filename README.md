@@ -51,7 +51,8 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
-### `BloggifyPlugin(name, pluginPath, bloggifyInstance)`
+### BloggifyPlugin
+
 Creates a new Bloggify plugin instance.
 
 #### Params
@@ -68,7 +69,7 @@ Creates a new Bloggify plugin instance.
  - `bloggify` (Bloggify): The `Bloggify` instance.
  - `config` (Object): The plugin's configuration.
 
-getFilePath
+### `getFilePath(fileName)`
 Returns the path of the searched file.
 
 #### Params
@@ -78,20 +79,20 @@ Returns the path of the searched file.
 #### Return
 - **String** The file's path.
 
-init
+### `init(cb)`
 Initializes the plugin.
 
 #### Params
 
 - **Function** `cb`: The callback function.
 
-getConfig
+### `getConfig()`
 Returns plugin's configuration.
 
 #### Return
 - **Object** The configuration content.
 
-getPackage
+### `getPackage(cb)`
 Returns the plugin's package file.
 
 #### Params
