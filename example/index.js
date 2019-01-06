@@ -1,15 +1,12 @@
 "use strict";
 
-const BloggifyPluginClass = require("../lib");
+var BloggifyPluginClass = require("../lib");
 
 // Create a new plugin
-let myPlugin = new BloggifyPlugin(
-    "foo"
-  , "path/to/foo"
-);
+var myPlugin = new BloggifyPlugin("foo", "path/to/foo");
 
 // And initialize it
-myPlugin.init((err, data) => {
+myPlugin.init(function (err, data) {
     // Do something after initialization
     // ...
 });
